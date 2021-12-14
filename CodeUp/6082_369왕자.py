@@ -1,0 +1,15 @@
+num = int(input())
+
+for i in range(1, num + 1):
+    if i % 10 == 3:
+        print("X", end=' ')
+        continue
+    if i % 10 == 6:
+        print("X", end=' ')
+        continue
+    if i % 10 == 9:
+        print("X", end=' ')
+        continue
+    else:
+        print(i, end=' ')
+
